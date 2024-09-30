@@ -11,7 +11,7 @@ let currentQuery = '';
 let currentPage = 1;
 const perPage = 12;
 
-// Ініціалізація SimpleLightbox
+
 let lightbox = new SimpleLightbox('.gallery a');
 
 searchForm.addEventListener('submit', async (event) => {
