@@ -1,10 +1,11 @@
-import { getImagesByQuery } from './pixabay-api';
+import { getImagesByQuery } from './js/pixabay-api';
+
 import {
   createGallery,
   clearGallery,
   showLoader,
   hideLoader,
-} from './render-functions';
+} from './js/render-functions';
 
 const form = document.querySelector('.form');
 
